@@ -1,10 +1,10 @@
-# doc9
-Documentation regarding Banana Accounting 9
+# doc10
+Documentation regarding Banana Accounting 10
 
 - directory and files names should be LOWERCASE
 
 ## Directory structure
-### Directories for basic Documentation 9 
+### Directories for basic Documentation 10
 
 - languagename
   all language should have the same directory structure
