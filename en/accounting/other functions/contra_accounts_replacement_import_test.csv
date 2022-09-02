@@ -4,8 +4,8 @@ Tipo di registrazione:;="Tutte le registrazioni"
 Conto:;="CH4009000000692792923"
 Valuta:;="CHF"
 Data di contabilizzazione;Testo di avviso;Accredito in CHF;Addebito in CHF;Valuta;Saldo in CHF
-19.05.2022;"ATM Withdrawal";;-100;19.05.2022;
-21.05.2022;"ATM Withdrawal";;-100;21.05.2022;
+19.05.2022;"ATM Withdrawal";;-125;19.05.2022;
+21.05.2022;"ATM Withdrawal";;-125;21.05.2022;
 21.06.2022;"ATM Withdrawal";;-300;21.06.2022;
 21.06.2022;"Bill Payment - MASTERCARD";;-200.00;21.06.2022;
 21.06.2022;"Invoice #131 resale of products";600.15;;21.06.2022;
@@ -18,9 +18,9 @@ Data di contabilizzazione;Testo di avviso;Accredito in CHF;Addebito in CHF;Valut
 30.04.2022;"Funds Transfer - From SAVINGS";50.0;;30.04.2022;
 30.05.2022;"Cheque No. - 411";;-33.55;30.05.2022;
 25.05.2022;"Cheque No. - 410";;-100.0;25.05.2022;
-20.05.2022;"Mortgage Payment";;-710.49;20.05.2022;
+20.05.2022;"Rent apartment London ";550;;20.05.2022;
 31.05.2022;"Fees May - Monthly";;-5.0;31.05.2022;
 30.04.2022;"Fees April - Monthly";;-5.0;30.04.2022;
-31.05.2022;"Telephone Bill Payment - VISA";;-5;31.05.2022;
+31.05.2022;"Telephone Bill Payment +41795552299";;-90.0;31.05.2022;
 Disclaimer:
 Questo non è un documento creato da PostFinance SA. PostFinance SA non è responsabile del contenuto.
