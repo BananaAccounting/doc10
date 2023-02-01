@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Buchungen</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<style type="text/css">
+table{border-collapse:collapse;}
+td{vertical-align: top;}
+caption{text-align: left;}
+   body {
+      font-family:Arial;
+   }
+   @page {
+      margin-top:10mm;
+      margin-bottom:10mm;
+      margin-left:10mm;
+      margin-right:10mm;
+      size:portrait;
+   }
+   phead {
+      margin-bottom:1em;
+      width:100%;
+   }
+   pfoot {
+      margin-top:1em;
+      width:100%;
+   }
+   thead {
+      font-size:80%;
+   }
+   pbody table {
+      max-width:100%;
+   }
+   pbody table {
+      margin-bottom:0.5em;
+      layout-sym:card;
+   }
+   pbody caption {
+      margin-top:1.2em;
+      margin-bottom:0.2em;
+   }
+   .watermark {
+      font-size:16;
+      font-weight:bold;
+      text-align:center;
+      color:#DDDDDD;
+      display:inline;
+   }
+   .header-logo-section {
+      margin-bottom:1em;
+      width:100%;
+   }
+   .tablecaption1 {
+      font-size:11pt;
+      font-weight:bold;
+   }
+   .tablecaption2 {
+      font-size:80%;
+   }
+   .hcol1 {
+      line-break-inside:avoid;
+   }
+   .hcol2 {
+      line-break-before:always;
+      line-break-inside:avoid;
+   }
+   .negative {
+      color:red;
+   }
+   .urllink {
+      border-bottom-style:dashed;
+      border-bottom-color:black;
+      border-bottom-width:1pt;
+   }
+   .empty {
+      height:1em;
+   }
+   .tablepagebreak {
+      page-break-before:always;
+   }
+   pfoot .leftbox {
+      text-align:left;
+      display:inline;
+      width:33%;
+   }
+   pfoot .printdate {
+      text-align:center;
+      display:inline;
+      width:34%;
+   }
+   pfoot .pagenr {
+      text-align:right;
+      display:inline;
+      width:33%;
+   }
+   thead .colheader {
+      padding-bottom:0.6em;
+   }
+   col.Description {
+      flexible-width:always;
+   }
+   td.rownr {
+      font-size:small;
+      font-weight:normal;
+   }
+   col.rownr {
+      display:none;
+      line-break-inside:avoid;
+   }
+   td.Date {
+   }
+   td.Doc {
+      text-align:center;
+   }
+   td.DocType {
+      text-align:center;
+   }
+   td.DocInvoice {
+      text-align:center;
+   }
+   td.Description {
+   }
+   td.AccountDebit {
+   }
+   td.AccountCredit {
+   }
+   td.Quantity {
+      text-align:right;
+   }
+   td.ReferenceUnit {
+      text-align:center;
+   }
+   td.UnitPrice {
+      text-align:right;
+   }
+   td.Amount {
+      text-align:right;
+   }
+   td.VatCode {
+      text-align:center;
+   }
+   td.VatAmountType {
+      text-align:center;
+   }
+   td.VatRate {
+      text-align:right;
+   }
+   td.VatPosted {
+      text-align:right;
+   }
+   tbody td.Date {
+      line-break-inside:avoid;
+   }
+   tbody td.Doc {
+   }
+   tbody td.DocType {
+   }
+   tbody td.DocInvoice {
+   }
+   tbody td.Description {
+      flexible-width:always;
+   }
+   tbody td.AccountDebit {
+   }
+   tbody td.AccountCredit {
+   }
+   tbody td.Quantity {
+      line-break-inside:avoid;
+   }
+   tbody td.ReferenceUnit {
+   }
+   tbody td.UnitPrice {
+      line-break-inside:avoid;
+   }
+   tbody td.Amount {
+      line-break-inside:avoid;
+   }
+   tbody td.VatCode {
+   }
+   tbody td.VatAmountType {
+      line-break-inside:avoid;
+   }
+   tbody td.VatRate {
+      line-break-inside:avoid;
+   }
+   tbody td.VatPosted {
+      line-break-inside:avoid;
+   }
+   .hfile .hfile1 {
+      font-weight:bold;
+      display:inline;
+      width:50%;
+   }
+   .hfile .hfile2 {
+      font-weight:bold;
+      text-align:right;
+      display:inline;
+      width:50%;
+   }
+   .hcart .hcart1 {
+      font-weight:bold;
+      display:inline;
+      width:50%;
+   }
+   .hcart .hcart2 {
+      font-weight:bold;
+      text-align:right;
+      display:inline;
+      width:50%;
+   }
+   .htab .htab1 {
+      font-weight:bold;
+      display:inline;
+      width:50%;
+   }
+   .htab .htab2 {
+      font-weight:bold;
+      text-align:right;
+      display:inline;
+      width:50%;
+   }
+
+</style></head>
+<body><table><caption><div class="tablecaption"><p class="tablecaption1"><span>Buchungen</span></p></div></caption><col class="rownr" /><col class="Date" /><col class="Doc" /><col class="DocType" /><col class="DocInvoice" /><col class="Description" /><col class="AccountDebit" /><col class="AccountCredit" /><col class="Quantity" /><col class="ReferenceUnit" /><col class="UnitPrice" /><col class="Amount" /><col class="VatCode" /><col class="VatAmountType" /><col class="VatRate" /><col class="VatPosted" /><thead><tr class="colheader"><td class="rownr"></td><td class="Date"><span class="hcol1">Datum</span></td><td class="Doc"><span class="hcol1">Beleg</span></td><td class="DocType"><span class="hcol1">Typ</span></td><td class="DocInvoice"><span class="hcol1">Rechnung</span></td><td class="Description"><span class="hcol1">Beschreibung</span></td><td class="AccountDebit"><span class="hcol1">KtSoll</span></td><td class="AccountCredit"><span class="hcol1">KtHaben</span></td><td class="Quantity"><span class="hcol1">Anzahl</span></td><td class="ReferenceUnit"><span class="hcol1">Einheit</span></td><td class="UnitPrice"><span class="hcol1">Preis/Einheit</span></td><td class="Amount"><span class="hcol1">Betrag</span><span class="hcol2">CHF</span></td><td class="VatCode"><span class="hcol1">MwSt/USt-Code</span></td><td class="VatAmountType"><span class="hcol1">Art Betrag</span></td><td class="VatRate"><span class="hcol1">MwSt/USt-%</span></td><td class="VatPosted"><span class="hcol1">Gebuchte MwSt/USt</span><span class="hcol2">CHF</span></td></tr></thead><tbody><tr><td class="rownr"><span>1</span></td><td class="Date"><span>03.01.2023</span></td><td class="Doc"><span>1</span></td><td class="DocType"><span>10</span></td><td class="DocInvoice"><span>20341</span></td><td class="Description"><span>Tische - Kategorie A</span></td><td class="AccountDebit"></td><td class="AccountCredit"></td><td class="Quantity"><span>1.00</span></td><td class="ReferenceUnit"><span>1</span></td><td class="UnitPrice"><span>2'000.00</span></td><td class="Amount"><span>2'000.00</span></td><td class="VatCode"><span>[V77]</span></td><td class="VatAmountType"></td><td class="VatRate"></td><td class="VatPosted"></td></tr><tr><td class="rownr"><span>2</span></td><td class="Date"><span>03.01.2023</span></td><td class="Doc"><span>1</span></td><td class="DocType"><span>10</span></td><td class="DocInvoice"><span>20341</span></td><td class="Description"><span>Stühle - Kategorie B</span></td><td class="AccountDebit"></td><td class="AccountCredit"></td><td class="Quantity"><span>5.00</span></td><td class="ReferenceUnit"><span>1</span></td><td class="UnitPrice"><span>220.00</span></td><td class="Amount"><span>1'100.00</span></td><td class="VatCode"><span>[V77]</span></td><td class="VatAmountType"></td><td class="VatRate"></td><td class="VatPosted"></td></tr><tr><td class="rownr"><span>3</span></td><td class="Date"><span>04.01.2023</span></td><td class="Doc"><span>2</span></td><td class="DocType"></td><td class="DocInvoice"></td><td class="Description"><span>Bargeldbezug (Bank) </span></td><td class="AccountDebit"><span>1000</span></td><td class="AccountCredit"><span>1020</span></td><td class="Quantity"></td><td class="ReferenceUnit"></td><td class="UnitPrice"></td><td class="Amount"><span>1'500.00</span></td><td class="VatCode"></td><td class="VatAmountType"></td><td class="VatRate"></td><td class="VatPosted"></td></tr><tr><td class="rownr"><span>4</span></td><td class="Date"><span>07.01.2023</span></td><td class="Doc"><span>3</span></td><td class="DocType"><span>10</span></td><td class="DocInvoice"><span>20342</span></td><td class="Description"><span>Stühle - Kategorie B</span></td><td class="AccountDebit"></td><td class="AccountCredit"></td><td class="Quantity"><span>15.00</span></td><td class="ReferenceUnit"><span>1</span></td><td class="UnitPrice"><span>220.00</span></td><td class="Amount"><span>3'300.00</span></td><td class="VatCode"><span>[V77]</span></td><td class="VatAmountType"></td><td class="VatRate"></td><td class="VatPosted"></td></tr><tr><td class="rownr"><span>5</span></td><td class="Date"><span>07.01.2023</span></td><td class="Doc"><span>3</span></td><td class="DocType"><span>10</span></td><td class="DocInvoice"><span>20342</span></td><td class="Description"><span>Tische - Kategorie B</span></td><td class="AccountDebit"></td><td class="AccountCredit"></td><td class="Quantity"><span>2.00</span></td><td class="ReferenceUnit"><span>1</span></td><td class="UnitPrice"><span>1'600.00</span></td><td class="Amount"><span>3'200.00</span></td><td class="VatCode"><span>[V77]</span></td><td class="VatAmountType"></td><td class="VatRate"></td><td class="VatPosted"></td></tr><tr><td class="rownr"><span>6</span></td><td class="Date"><span>24.01.2023</span></td><td class="Doc"><span>4</span></td><td class="DocType"><span>11</span></td><td class="DocInvoice"><span>20341</span></td><td class="Description"><span>Bezahlung von Kunde Rossi SA</span></td><td class="AccountDebit"><span>1020</span></td><td class="AccountCredit"><span>3200</span></td><td class="Quantity"></td><td class="ReferenceUnit"></td><td class="UnitPrice"></td><td class="Amount"><span>3'100.00</span></td><td class="VatCode"><span>V77</span></td><td class="VatAmountType"></td><td class="negative VatRate"><span>-7.70</span></td><td class="negative VatPosted"><span>-221.63</span></td></tr><tr><td class="rownr"><span>7</span></td><td class="Date"><span>24.01.2023</span></td><td class="Doc"><span>5</span></td><td class="DocType"></td><td class="DocInvoice"></td><td class="Description"><span>Elektrizitätskosten</span></td><td class="AccountDebit"><span>4500</span></td><td class="AccountCredit"><span>1020</span></td><td class="Quantity"></td><td class="ReferenceUnit"></td><td class="UnitPrice"></td><td class="Amount"><span>3'690.00</span></td><td class="VatCode"><span>I77</span></td><td class="VatAmountType"></td><td class="VatRate"><span>7.70</span></td><td class="VatPosted"><span>263.82</span></td></tr><tr><td class="rownr"><span>8</span></td><td class="Date"><span>25.01.2023</span></td><td class="Doc"><span>6</span></td><td class="DocType"><span>11</span></td><td class="DocInvoice"><span>20342</span></td><td class="Description"><span>Zahlungsausgang</span></td><td class="AccountDebit"><span>4000</span></td><td class="AccountCredit"><span>1020</span></td><td class="Quantity"></td><td class="ReferenceUnit"></td><td class="UnitPrice"></td><td class="Amount"><span>6'500.00</span></td><td class="VatCode"><span>M77</span></td><td class="VatAmountType"></td><td class="VatRate"><span>7.70</span></td><td class="VatPosted"><span>464.72</span></td></tr></tbody></table></body></html>
